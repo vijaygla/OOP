@@ -1,6 +1,6 @@
-package basic;
+package oop;
 
-public class Main {
+public class Constructor {
 
     public static void main(String[] args) {
         System.out.println("School Name: " + Students.schoolName);
@@ -19,6 +19,9 @@ public class Main {
         // System.out.println("Animal Name: " + b.name);
         // System.out.println("Animal Age: " + b.age);
 
+        Animals ref = new Animals();
+        System.out.println("Default Animal Name: " + ref.name + ", Age: " + ref.age + ", Food: " + ref.food + ", Weight: " + ref.weight);
+
         Animals a = new Animals("Lion", 5, "Meat", 200);
         System.out.println("Animal Name: " + a.name + ", Age: " + a.age + ", Food: " + a.food + ", Weight: " + a.weight);
     }
@@ -33,7 +36,12 @@ class Animals {
     String name;
     int age;
     String food;
-    int weight;
+    float weight;
+
+    // Default constructor
+    Animals() {
+
+    }
 
     // Constructor
     Animals(String name, int age, String food, int weight) {
@@ -43,5 +51,4 @@ class Animals {
         this.weight = weight;
     }
 }
-
 

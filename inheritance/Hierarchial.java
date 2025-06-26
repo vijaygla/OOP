@@ -1,5 +1,3 @@
-package inheritance;
-
 public class Hierarchial {
     public static void main(String[] args) {
         B ref1 = new B();

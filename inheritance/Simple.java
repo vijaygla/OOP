@@ -1,5 +1,3 @@
-package inheritance;
-
 // sub class
 public class Simple extends Student {
 

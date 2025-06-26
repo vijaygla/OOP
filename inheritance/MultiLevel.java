@@ -1,5 +1,3 @@
-package inheritance;
-
 public class MultiLevel {
     public static void main(String[] args) {
         D ref = new D();
