@@ -1,4 +1,5 @@
 // Abstraction class ka kabhi bhi object nahi banega 
+// Abstract class  ka kabhi bhi object nahi banta hai 
 // abstraction class ke adar jotne  abstract method hai sabko override karna padega nahi to error dega
 // abstraction class ke ander non abstract and abstract method dono bana sakte hai
 
