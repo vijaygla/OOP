@@ -27,4 +27,3 @@ class Jack {
 class JuniorJack extends Jack {
 
 }
-

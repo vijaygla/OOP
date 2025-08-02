@@ -1,5 +1,5 @@
-// Abstraction class ka kabhi bhi object nahi banega 
 // Abstract class  ka kabhi bhi object nahi banta hai 
+// We don't make an object of an abstract class because it is incomplete—it may have abstract methods without implementation, so it cannot be instantiated directly.
 // abstraction class ke adar jotne  abstract method hai sabko override karna padega nahi to error dega
 // abstraction class ke ander non abstract and abstract method dono bana sakte hai
 
@@ -37,5 +37,3 @@ class Dog extends Animals {
         System.out.println("Dog is sleeping");
     }
 }
-
-

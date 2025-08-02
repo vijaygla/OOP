@@ -1,5 +1,6 @@
 // all the method are abstract and public in interface by default
 // interface ka kabhi bhi object nahi banta hai 
+// We don't make an object of an interface because it only contains method declarations (no implementation), so there's nothing to execute or instantiate directly.
 
 public class interfaces {
     public static void main(String[] args) {

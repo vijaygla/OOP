@@ -17,8 +17,8 @@ public class Constructor {
         // System.out.println("Animal Name: " + b.name);
         // System.out.println("Animal Age: " + b.age);
 
-        Animals ref = new Animals();
-        System.out.println("Default Animal Name: " + ref.name + ", Age: " + ref.age + ", Food: " + ref.food + ", Weight: " + ref.weight);
+        Animals obj = new Animals();
+        System.out.println("Default Animal Name: " + obj.name + ", Age: " + obj.age + ", Food: " + obj.food + ", Weight: " + obj.weight);
 
         Animals a = new Animals("Lion", 5, "Meat", 200);
         System.out.println("Animal Name: " + a.name + ", Age: " + a.age + ", Food: " + a.food + ", Weight: " + a.weight);
@@ -49,5 +49,4 @@ class Animals {
         this.weight = weight;
     }
 }
-
 
